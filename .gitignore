@@ -3,5 +3,7 @@
 .vs/
 Binaries/
 Intermediate/
-!Plugins/**
 Saved/
+
+# Nothing should be excluded in pre-packaged plugins
+!Plugins/**
