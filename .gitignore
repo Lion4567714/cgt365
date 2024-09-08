@@ -3,7 +3,5 @@
 .vs/
 Binaries/
 Intermediate/
-Plugins/**/Binaries/
-Plugins/**/Intermediate/
-Plugins/**/Saved/
+!Plugins/**
 Saved/
