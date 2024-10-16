@@ -1,0 +1,9 @@
+# Ignore all files except the bare essentials
+# Loading the project will be slow, but this saves gigabytes of repo space
+.vs/
+Binaries/
+Intermediate/
+Saved/
+
+# Nothing should be excluded in pre-packaged plugins
+!Plugins/**
