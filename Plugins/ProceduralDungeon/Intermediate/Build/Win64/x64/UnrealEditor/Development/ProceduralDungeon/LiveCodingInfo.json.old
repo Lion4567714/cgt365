@@ -19,7 +19,6 @@
 			"RoomLevel.gen.cpp.obj",
 			"RoomVisibilityComponent.gen.cpp.obj",
 			"RoomVisitor.gen.cpp.obj",
-			"testCpp.gen.cpp.obj",
 			"TriggerDoor.gen.cpp.obj",
 			"TriggerType.gen.cpp.obj",
 			"Door.cpp.obj",
@@ -36,14 +35,13 @@
 			"QueueOrStack.cpp.obj",
 			"ReplicableObject.cpp.obj",
 			"Room.cpp.obj",
-			"RoomCustomData.cpp.obj"
+			"RoomCustomData.cpp.obj",
+			"RoomData.cpp.obj"
 		],
 		"Module.ProceduralDungeon.3.cpp.obj": [
-			"RoomData.cpp.obj",
 			"RoomLevel.cpp.obj",
 			"RoomVisibilityComponent.cpp.obj",
 			"RoomVisitor.cpp.obj",
-			"testCpp.cpp.obj",
 			"BoxMinAndMaxTests.cpp.obj",
 			"DoorDirectionTests.cpp.obj",
 			"DungeonGraphTests.cpp.obj",
