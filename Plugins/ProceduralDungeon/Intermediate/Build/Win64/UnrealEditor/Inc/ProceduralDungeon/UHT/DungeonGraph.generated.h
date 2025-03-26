@@ -18,10 +18,17 @@ class URoomData;
 #endif
 #define PROCEDURALDUNGEON_DungeonGraph_generated_h
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_SPARSE_DATA
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_SPARSE_DATA
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
+>>>>>>> Stashed changes
  \
 	DECLARE_FUNCTION(execOnRep_Rooms); \
 	DECLARE_FUNCTION(execHasValidPath); \
@@ -44,8 +51,13 @@ class URoomData;
 	DECLARE_FUNCTION(execGetAllRooms);
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_ACCESSORS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_INCLASS_NO_PURE_DECLS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_ACCESSORS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_INCLASS_NO_PURE_DECLS \
+>>>>>>> Stashed changes
 private: \
 	static void StaticRegisterNativesUDungeonGraph(); \
 	friend struct Z_Construct_UClass_UDungeonGraph_Statics; \
@@ -64,7 +76,11 @@ private: \
 public:
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_ENHANCED_CONSTRUCTORS \
+>>>>>>> Stashed changes
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UDungeonGraph(UDungeonGraph&&); \
@@ -76,6 +92,7 @@ public: \
 	NO_API virtual ~UDungeonGraph();
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_43_PROLOG
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
@@ -87,6 +104,19 @@ public: \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_ACCESSORS \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_INCLASS_NO_PURE_DECLS \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_43_PROLOG
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_SPARSE_DATA \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_ACCESSORS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_46_ENHANCED_CONSTRUCTORS \
+>>>>>>> Stashed changes
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -94,7 +124,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PROCEDURALDUNGEON_API UClass* StaticClass<class UDungeonGraph>();
 
 #undef CURRENT_FILE_ID
+<<<<<<< Updated upstream
 #define CURRENT_FILE_ID FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h
+=======
+#define CURRENT_FILE_ID FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h
+>>>>>>> Stashed changes
 
 
 #define FOREACH_ENUM_EDUNGEONGRAPHSTATE(op) \

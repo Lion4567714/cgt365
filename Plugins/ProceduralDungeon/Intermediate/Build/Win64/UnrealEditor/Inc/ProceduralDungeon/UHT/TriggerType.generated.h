@@ -17,6 +17,7 @@ struct FHitResult;
 #endif
 #define PROCEDURALDUNGEON_TriggerType_generated_h
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_32_DELEGATE \
 PROCEDURALDUNGEON_API void FTriggerEvent_DelegateWrapper(const FMulticastScriptDelegate& TriggerEvent, AActor* Actor);
 
@@ -29,6 +30,20 @@ PROCEDURALDUNGEON_API void FTriggerArrayEvent_DelegateWrapper(const FMulticastSc
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_32_DELEGATE \
+PROCEDURALDUNGEON_API void FTriggerEvent_DelegateWrapper(const FMulticastScriptDelegate& TriggerEvent, AActor* Actor);
+
+
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_33_DELEGATE \
+PROCEDURALDUNGEON_API void FTriggerArrayEvent_DelegateWrapper(const FMulticastScriptDelegate& TriggerArrayEvent, const TArray<AActor*>& Actor);
+
+
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_SPARSE_DATA
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
+>>>>>>> Stashed changes
  \
 	DECLARE_FUNCTION(execTriggerDeactivate); \
 	DECLARE_FUNCTION(execTriggerActivate); \
@@ -39,8 +54,13 @@ PROCEDURALDUNGEON_API void FTriggerArrayEvent_DelegateWrapper(const FMulticastSc
 	DECLARE_FUNCTION(execIsActivated);
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_ACCESSORS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_INCLASS_NO_PURE_DECLS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_ACCESSORS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_INCLASS_NO_PURE_DECLS \
+>>>>>>> Stashed changes
 private: \
 	static void StaticRegisterNativesUTriggerType(); \
 	friend struct Z_Construct_UClass_UTriggerType_Statics; \
@@ -49,7 +69,11 @@ public: \
 	DECLARE_SERIALIZER(UTriggerType)
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_ENHANCED_CONSTRUCTORS \
+>>>>>>> Stashed changes
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UTriggerType(UTriggerType&&); \
@@ -61,6 +85,7 @@ public: \
 	NO_API virtual ~UTriggerType();
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_35_PROLOG
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
@@ -72,6 +97,19 @@ public: \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_ACCESSORS \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_INCLASS_NO_PURE_DECLS \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_35_PROLOG
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_SPARSE_DATA \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_ACCESSORS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_38_ENHANCED_CONSTRUCTORS \
+>>>>>>> Stashed changes
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -79,7 +117,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PROCEDURALDUNGEON_API UClass* StaticClass<class UTriggerType>();
 
 #undef CURRENT_FILE_ID
+<<<<<<< Updated upstream
 #define CURRENT_FILE_ID FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h
+=======
+#define CURRENT_FILE_ID FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h
+>>>>>>> Stashed changes
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

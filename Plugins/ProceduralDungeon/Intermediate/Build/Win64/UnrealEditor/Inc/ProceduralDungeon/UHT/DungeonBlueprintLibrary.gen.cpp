@@ -815,6 +815,7 @@ void EmptyLinkFunctionForGeneratedCodeDungeonBlueprintLibrary() {}
 	UDungeonBlueprintLibrary::UDungeonBlueprintLibrary(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UDungeonBlueprintLibrary);
 	UDungeonBlueprintLibrary::~UDungeonBlueprintLibrary() {}
+<<<<<<< Updated upstream
 	struct Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonBlueprintLibrary_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
@@ -824,6 +825,17 @@ void EmptyLinkFunctionForGeneratedCodeDungeonBlueprintLibrary() {}
 	};
 	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonBlueprintLibrary_h_3438086508(TEXT("/Script/ProceduralDungeon"),
 		Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonBlueprintLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonBlueprintLibrary_h_Statics::ClassInfo),
+=======
+	struct Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonBlueprintLibrary_h_Statics
+	{
+		static const FClassRegisterCompiledInInfo ClassInfo[];
+	};
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonBlueprintLibrary_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UDungeonBlueprintLibrary, UDungeonBlueprintLibrary::StaticClass, TEXT("UDungeonBlueprintLibrary"), &Z_Registration_Info_UClass_UDungeonBlueprintLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDungeonBlueprintLibrary), 1536812944U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonBlueprintLibrary_h_3438086508(TEXT("/Script/ProceduralDungeon"),
+		Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonBlueprintLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonBlueprintLibrary_h_Statics::ClassInfo),
+>>>>>>> Stashed changes
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

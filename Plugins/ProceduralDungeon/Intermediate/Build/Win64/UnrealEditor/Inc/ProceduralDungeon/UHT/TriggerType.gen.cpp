@@ -712,6 +712,7 @@ void FTriggerArrayEvent_DelegateWrapper(const FMulticastScriptDelegate& TriggerA
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UTriggerType);
 	UTriggerType::~UTriggerType() {}
+<<<<<<< Updated upstream
 	struct Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
@@ -721,6 +722,17 @@ void FTriggerArrayEvent_DelegateWrapper(const FMulticastScriptDelegate& TriggerA
 	};
 	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_1571170978(TEXT("/Script/ProceduralDungeon"),
 		Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_Statics::ClassInfo),
+=======
+	struct Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_Statics
+	{
+		static const FClassRegisterCompiledInInfo ClassInfo[];
+	};
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UTriggerType, UTriggerType::StaticClass, TEXT("UTriggerType"), &Z_Registration_Info_UClass_UTriggerType, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UTriggerType), 3483691265U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_1571170978(TEXT("/Script/ProceduralDungeon"),
+		Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerType_h_Statics::ClassInfo),
+>>>>>>> Stashed changes
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

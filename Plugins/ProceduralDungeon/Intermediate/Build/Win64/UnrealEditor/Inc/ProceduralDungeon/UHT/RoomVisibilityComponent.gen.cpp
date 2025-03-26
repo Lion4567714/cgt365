@@ -446,11 +446,16 @@ void FRoomVisibilityEvent_DelegateWrapper(const FMulticastScriptDelegate& RoomVi
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(URoomVisibilityComponent);
 	URoomVisibilityComponent::~URoomVisibilityComponent() {}
+<<<<<<< Updated upstream
 	struct Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisibilityComponent_h_Statics
+=======
+	struct Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisibilityComponent_h_Statics
+>>>>>>> Stashed changes
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
+<<<<<<< Updated upstream
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisibilityComponent_h_Statics::EnumInfo[] = {
 		{ EVisibilityMode_StaticEnum, TEXT("EVisibilityMode"), &Z_Registration_Info_UEnum_EVisibilityMode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1141838856U) },
 	};
@@ -461,4 +466,16 @@ void FRoomVisibilityEvent_DelegateWrapper(const FMulticastScriptDelegate& RoomVi
 		Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisibilityComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisibilityComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisibilityComponent_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisibilityComponent_h_Statics::EnumInfo));
+=======
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisibilityComponent_h_Statics::EnumInfo[] = {
+		{ EVisibilityMode_StaticEnum, TEXT("EVisibilityMode"), &Z_Registration_Info_UEnum_EVisibilityMode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1141838856U) },
+	};
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisibilityComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_URoomVisibilityComponent, URoomVisibilityComponent::StaticClass, TEXT("URoomVisibilityComponent"), &Z_Registration_Info_UClass_URoomVisibilityComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(URoomVisibilityComponent), 3964799109U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisibilityComponent_h_1649165577(TEXT("/Script/ProceduralDungeon"),
+		Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisibilityComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisibilityComponent_h_Statics::ClassInfo),
+		nullptr, 0,
+		Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisibilityComponent_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisibilityComponent_h_Statics::EnumInfo));
+>>>>>>> Stashed changes
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

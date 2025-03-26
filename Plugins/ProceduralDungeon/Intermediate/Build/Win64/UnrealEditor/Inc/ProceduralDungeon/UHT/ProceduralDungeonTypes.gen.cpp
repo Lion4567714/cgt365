@@ -378,17 +378,26 @@ template<> PROCEDURALDUNGEON_API UScriptStruct* StaticStruct<FDoorDef>()
 		}
 		return Z_Registration_Info_UScriptStruct_DoorDef.InnerSingleton;
 	}
+<<<<<<< Updated upstream
 	struct Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_ProceduralDungeonTypes_h_Statics
+=======
+	struct Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_ProceduralDungeonTypes_h_Statics
+>>>>>>> Stashed changes
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
+<<<<<<< Updated upstream
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_ProceduralDungeonTypes_h_Statics::EnumInfo[] = {
+=======
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_ProceduralDungeonTypes_h_Statics::EnumInfo[] = {
+>>>>>>> Stashed changes
 		{ EGenerationState_StaticEnum, TEXT("EGenerationState"), &Z_Registration_Info_UEnum_EGenerationState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2666336001U) },
 		{ EDoorDirection_StaticEnum, TEXT("EDoorDirection"), &Z_Registration_Info_UEnum_EDoorDirection, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2850159906U) },
 		{ EGenerationType_StaticEnum, TEXT("EGenerationType"), &Z_Registration_Info_UEnum_EGenerationType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3608929602U) },
 		{ ESeedType_StaticEnum, TEXT("ESeedType"), &Z_Registration_Info_UEnum_ESeedType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 388857190U) },
 	};
+<<<<<<< Updated upstream
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_ProceduralDungeonTypes_h_Statics::ScriptStructInfo[] = {
 		{ FDoorDef::StaticStruct, Z_Construct_UScriptStruct_FDoorDef_Statics::NewStructOps, TEXT("DoorDef"), &Z_Registration_Info_UScriptStruct_DoorDef, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FDoorDef), 3858898712U) },
 	};
@@ -396,4 +405,13 @@ template<> PROCEDURALDUNGEON_API UScriptStruct* StaticStruct<FDoorDef>()
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_ProceduralDungeonTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_ProceduralDungeonTypes_h_Statics::ScriptStructInfo),
 		Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_ProceduralDungeonTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_ProceduralDungeonTypes_h_Statics::EnumInfo));
+=======
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_ProceduralDungeonTypes_h_Statics::ScriptStructInfo[] = {
+		{ FDoorDef::StaticStruct, Z_Construct_UScriptStruct_FDoorDef_Statics::NewStructOps, TEXT("DoorDef"), &Z_Registration_Info_UScriptStruct_DoorDef, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FDoorDef), 3858898712U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_ProceduralDungeonTypes_h_4198702115(TEXT("/Script/ProceduralDungeon"),
+		nullptr, 0,
+		Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_ProceduralDungeonTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_ProceduralDungeonTypes_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_ProceduralDungeonTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_ProceduralDungeonTypes_h_Statics::EnumInfo));
+>>>>>>> Stashed changes
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

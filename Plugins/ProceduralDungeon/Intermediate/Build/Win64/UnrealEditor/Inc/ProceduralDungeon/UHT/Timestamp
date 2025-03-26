@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 D:\cgt365\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\Door.h
 D:\cgt365\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\DoorType.h
 D:\cgt365\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\DungeonBlueprintLibrary.h
@@ -15,3 +16,21 @@ D:\cgt365\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\Trigg
 D:\cgt365\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\RoomCustomData.h
 D:\cgt365\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\ReplicableObject.h
 D:\cgt365\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\TriggerType.h
+=======
+E:\Unreal\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\DungeonBlueprintLibrary.h
+E:\Unreal\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\Door.h
+E:\Unreal\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\DungeonGenerator.h
+E:\Unreal\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\DungeonGraph.h
+E:\Unreal\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\DoorType.h
+E:\Unreal\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\ProceduralDungeonTypes.h
+E:\Unreal\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\RoomVisibilityComponent.h
+E:\Unreal\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\TriggerDoor.h
+E:\Unreal\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\RoomData.h
+E:\Unreal\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\TriggerType.h
+E:\Unreal\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\RoomVisitor.h
+E:\Unreal\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\ProceduralDungeonSettings.h
+E:\Unreal\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\RoomLevel.h
+E:\Unreal\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\ReplicableObject.h
+E:\Unreal\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\RoomCustomData.h
+E:\Unreal\cgt365\Plugins\ProceduralDungeon\Source\ProceduralDungeon\Public\Room.h
+>>>>>>> Stashed changes

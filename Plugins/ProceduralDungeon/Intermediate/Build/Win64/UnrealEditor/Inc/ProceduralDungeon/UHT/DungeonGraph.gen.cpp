@@ -1448,11 +1448,16 @@ void EmptyLinkFunctionForGeneratedCodeDungeonGraph() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UDungeonGraph);
 	UDungeonGraph::~UDungeonGraph() {}
+<<<<<<< Updated upstream
 	struct Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_Statics
+=======
+	struct Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_Statics
+>>>>>>> Stashed changes
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
+<<<<<<< Updated upstream
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_Statics::EnumInfo[] = {
 		{ EDungeonGraphState_StaticEnum, TEXT("EDungeonGraphState"), &Z_Registration_Info_UEnum_EDungeonGraphState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1113518810U) },
 	};
@@ -1463,4 +1468,16 @@ void EmptyLinkFunctionForGeneratedCodeDungeonGraph() {}
 		Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_Statics::ClassInfo),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_Statics::EnumInfo));
+=======
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_Statics::EnumInfo[] = {
+		{ EDungeonGraphState_StaticEnum, TEXT("EDungeonGraphState"), &Z_Registration_Info_UEnum_EDungeonGraphState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1113518810U) },
+	};
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UDungeonGraph, UDungeonGraph::StaticClass, TEXT("UDungeonGraph"), &Z_Registration_Info_UClass_UDungeonGraph, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDungeonGraph), 2554259146U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_1189677540(TEXT("/Script/ProceduralDungeon"),
+		Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_Statics::ClassInfo),
+		nullptr, 0,
+		Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGraph_h_Statics::EnumInfo));
+>>>>>>> Stashed changes
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

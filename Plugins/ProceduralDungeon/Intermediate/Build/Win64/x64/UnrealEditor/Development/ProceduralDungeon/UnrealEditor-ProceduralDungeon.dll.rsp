@@ -20,7 +20,11 @@
 /ALTERNATENAME:__imp___std_init_once_complete=__imp_InitOnceComplete
 /DELAYLOAD:"d3d12.dll"
 /DELAYLOAD:"DBGHELP.DLL"
+<<<<<<< Updated upstream
 /LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\lib\x64"
+=======
+/LIBPATH:"D:\VSD\VC\Tools\MSVC\14.41.34120\lib\x64"
+>>>>>>> Stashed changes
 /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x64"
 /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x64"
 /NODEFAULTLIB:"LIBCMT"
@@ -34,11 +38,19 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
+<<<<<<< Updated upstream
 "D:\cgt365\cgt365\Intermediate\Build\Win64\x64\DungeonExampleEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h.obj"
 "D:\cgt365\cgt365\Plugins\ProceduralDungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProceduralDungeon\Module.ProceduralDungeon.1.cpp.obj"
 "D:\cgt365\cgt365\Plugins\ProceduralDungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProceduralDungeon\Module.ProceduralDungeon.2.cpp.obj"
 "D:\cgt365\cgt365\Plugins\ProceduralDungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProceduralDungeon\Module.ProceduralDungeon.3.cpp.obj"
 "D:\cgt365\cgt365\Plugins\ProceduralDungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProceduralDungeon\Default.rc2.res"
+=======
+"E:\Unreal\cgt365\Intermediate\Build\Win64\x64\DungeonExampleEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h.obj"
+"E:\Unreal\cgt365\Plugins\ProceduralDungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProceduralDungeon\Module.ProceduralDungeon.1.cpp.obj"
+"E:\Unreal\cgt365\Plugins\ProceduralDungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProceduralDungeon\Module.ProceduralDungeon.2.cpp.obj"
+"E:\Unreal\cgt365\Plugins\ProceduralDungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProceduralDungeon\Module.ProceduralDungeon.3.cpp.obj"
+"E:\Unreal\cgt365\Plugins\ProceduralDungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProceduralDungeon\Default.rc2.res"
+>>>>>>> Stashed changes
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
@@ -68,7 +80,13 @@
 "synchronization.lib"
 "dwmapi.lib"
 "imm32.lib"
+<<<<<<< Updated upstream
 /OUT:"D:\cgt365\cgt365\Plugins\ProceduralDungeon\Binaries\Win64\UnrealEditor-ProceduralDungeon.dll"
 /IMPLIB:"D:\cgt365\cgt365\Plugins\ProceduralDungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProceduralDungeon\UnrealEditor-ProceduralDungeon.sup.lib"
 /PDB:"D:\cgt365\cgt365\Plugins\ProceduralDungeon\Binaries\Win64\UnrealEditor-ProceduralDungeon.pdb"
+=======
+/OUT:"E:\Unreal\cgt365\Plugins\ProceduralDungeon\Binaries\Win64\UnrealEditor-ProceduralDungeon.dll"
+/IMPLIB:"E:\Unreal\cgt365\Plugins\ProceduralDungeon\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProceduralDungeon\UnrealEditor-ProceduralDungeon.sup.lib"
+/PDB:"E:\Unreal\cgt365\Plugins\ProceduralDungeon\Binaries\Win64\UnrealEditor-ProceduralDungeon.pdb"
+>>>>>>> Stashed changes
 /ignore:4078

@@ -20,6 +20,7 @@ struct FRandomStream;
 #endif
 #define PROCEDURALDUNGEON_DungeonGenerator_generated_h
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_34_DELEGATE \
 PROCEDURALDUNGEON_API void FGenerationEvent_DelegateWrapper(const FMulticastScriptDelegate& GenerationEvent);
 
@@ -32,6 +33,20 @@ PROCEDURALDUNGEON_API void FRoomEvent_DelegateWrapper(const FMulticastScriptDele
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_RPC_WRAPPERS_NO_PURE_DECLS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_34_DELEGATE \
+PROCEDURALDUNGEON_API void FGenerationEvent_DelegateWrapper(const FMulticastScriptDelegate& GenerationEvent);
+
+
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_35_DELEGATE \
+PROCEDURALDUNGEON_API void FRoomEvent_DelegateWrapper(const FMulticastScriptDelegate& RoomEvent, const URoomData* NewRoom);
+
+
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_SPARSE_DATA
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_RPC_WRAPPERS_NO_PURE_DECLS \
+>>>>>>> Stashed changes
 	virtual void OnRoomAdded_Implementation(const URoomData* NewRoom); \
 	virtual void OnGenerationFailed_Implementation(); \
 	virtual void OnGenerationInit_Implementation(); \
@@ -74,9 +89,15 @@ PROCEDURALDUNGEON_API void FRoomEvent_DelegateWrapper(const FMulticastScriptDele
 	DECLARE_FUNCTION(execGenerate);
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_ACCESSORS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_CALLBACK_WRAPPERS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_INCLASS_NO_PURE_DECLS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_ACCESSORS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_CALLBACK_WRAPPERS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_INCLASS_NO_PURE_DECLS \
+>>>>>>> Stashed changes
 private: \
 	static void StaticRegisterNativesADungeonGenerator(); \
 	friend struct Z_Construct_UClass_ADungeonGenerator_Statics; \
@@ -94,7 +115,11 @@ public: \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_ENHANCED_CONSTRUCTORS \
+>>>>>>> Stashed changes
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ADungeonGenerator(ADungeonGenerator&&); \
@@ -106,6 +131,7 @@ public: \
 	NO_API virtual ~ADungeonGenerator();
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_50_PROLOG
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
@@ -118,6 +144,20 @@ public: \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_CALLBACK_WRAPPERS \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_INCLASS_NO_PURE_DECLS \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_50_PROLOG
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_SPARSE_DATA \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_ACCESSORS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_CALLBACK_WRAPPERS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h_53_ENHANCED_CONSTRUCTORS \
+>>>>>>> Stashed changes
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -125,7 +165,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PROCEDURALDUNGEON_API UClass* StaticClass<class ADungeonGenerator>();
 
 #undef CURRENT_FILE_ID
+<<<<<<< Updated upstream
 #define CURRENT_FILE_ID FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h
+=======
+#define CURRENT_FILE_ID FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_DungeonGenerator_h
+>>>>>>> Stashed changes
 
 
 #define FOREACH_ENUM_EGENERATIONRESULT(op) \

@@ -14,7 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROCEDURALDUNGEON_ProceduralDungeonTypes_generated_h
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_ProceduralDungeonTypes_h_91_GENERATED_BODY \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_ProceduralDungeonTypes_h_91_GENERATED_BODY \
+>>>>>>> Stashed changes
 	friend struct Z_Construct_UScriptStruct_FDoorDef_Statics; \
 	static class UScriptStruct* StaticStruct();
 
@@ -22,7 +26,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> PROCEDURALDUNGEON_API UScriptStruct* StaticStruct<struct FDoorDef>();
 
 #undef CURRENT_FILE_ID
+<<<<<<< Updated upstream
 #define CURRENT_FILE_ID FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_ProceduralDungeonTypes_h
+=======
+#define CURRENT_FILE_ID FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_ProceduralDungeonTypes_h
+>>>>>>> Stashed changes
 
 
 #define FOREACH_ENUM_EGENERATIONSTATE(op) \
