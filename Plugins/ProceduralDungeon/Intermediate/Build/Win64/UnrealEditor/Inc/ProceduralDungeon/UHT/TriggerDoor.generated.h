@@ -17,10 +17,17 @@ struct FHitResult;
 #endif
 #define PROCEDURALDUNGEON_TriggerDoor_generated_h
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_SPARSE_DATA
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_SPARSE_DATA
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
+>>>>>>> Stashed changes
 	virtual bool IsValidActor_Implementation(AActor* Actor, UPrimitiveComponent* Component); \
  \
 	DECLARE_FUNCTION(execIsValidActor); \
@@ -28,9 +35,15 @@ struct FHitResult;
 	DECLARE_FUNCTION(execOnTriggerEnter);
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_ACCESSORS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_CALLBACK_WRAPPERS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_INCLASS_NO_PURE_DECLS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_ACCESSORS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_CALLBACK_WRAPPERS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_INCLASS_NO_PURE_DECLS \
+>>>>>>> Stashed changes
 private: \
 	static void StaticRegisterNativesATriggerDoor(); \
 	friend struct Z_Construct_UClass_ATriggerDoor_Statics; \
@@ -39,7 +52,11 @@ public: \
 	DECLARE_SERIALIZER(ATriggerDoor)
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_ENHANCED_CONSTRUCTORS \
+>>>>>>> Stashed changes
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATriggerDoor(ATriggerDoor&&); \
@@ -51,6 +68,7 @@ public: \
 	NO_API virtual ~ATriggerDoor();
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_31_PROLOG
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
@@ -63,6 +81,20 @@ public: \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_CALLBACK_WRAPPERS \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_INCLASS_NO_PURE_DECLS \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_31_PROLOG
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_SPARSE_DATA \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_ACCESSORS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_CALLBACK_WRAPPERS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h_34_ENHANCED_CONSTRUCTORS \
+>>>>>>> Stashed changes
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -70,7 +102,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PROCEDURALDUNGEON_API UClass* StaticClass<class ATriggerDoor>();
 
 #undef CURRENT_FILE_ID
+<<<<<<< Updated upstream
 #define CURRENT_FILE_ID FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h
+=======
+#define CURRENT_FILE_ID FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_TriggerDoor_h
+>>>>>>> Stashed changes
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

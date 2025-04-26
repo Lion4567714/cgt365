@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 #include "D:/cgt365/cgt365/Intermediate/Build/Win64/x64/DungeonExampleEditor/Development/UnrealEd/SharedDefinitions.UnrealEd.Cpp20.InclOrderUnreal5_0.h"
+=======
+#include "E:/Unreal/cgt365/Intermediate/Build/Win64/x64/DungeonExampleEditor/Development/UnrealEd/SharedDefinitions.UnrealEd.Cpp20.InclOrderUnreal5_0.h"
+>>>>>>> Stashed changes
 #undef UE_IS_ENGINE_MODULE
 #undef DEPRECATED_FORGAME
 #define DEPRECATED_FORGAME DEPRECATED

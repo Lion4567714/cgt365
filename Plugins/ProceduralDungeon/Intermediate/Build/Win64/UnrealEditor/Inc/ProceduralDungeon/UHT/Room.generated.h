@@ -19,24 +19,39 @@ struct FRandomStream;
 #endif
 #define PROCEDURALDUNGEON_Room_generated_h
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_43_GENERATED_BODY \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_43_GENERATED_BODY \
+>>>>>>> Stashed changes
 	friend struct Z_Construct_UScriptStruct_FRoomConnection_Statics; \
 	PROCEDURALDUNGEON_API static class UScriptStruct* StaticStruct();
 
 
 template<> PROCEDURALDUNGEON_API UScriptStruct* StaticStruct<struct FRoomConnection>();
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_54_GENERATED_BODY \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_54_GENERATED_BODY \
+>>>>>>> Stashed changes
 	friend struct Z_Construct_UScriptStruct_FCustomDataPair_Statics; \
 	PROCEDURALDUNGEON_API static class UScriptStruct* StaticStruct();
 
 
 template<> PROCEDURALDUNGEON_API UScriptStruct* StaticStruct<struct FCustomDataPair>();
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_SPARSE_DATA
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_RPC_WRAPPERS_NO_PURE_DECLS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_SPARSE_DATA
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_RPC_WRAPPERS_NO_PURE_DECLS \
+>>>>>>> Stashed changes
  \
 	DECLARE_FUNCTION(execOnInstanceLoaded); \
 	DECLARE_FUNCTION(execOnRep_IsLocked); \
@@ -52,8 +67,13 @@ template<> PROCEDURALDUNGEON_API UScriptStruct* StaticStruct<struct FCustomDataP
 	DECLARE_FUNCTION(execGetRoomData);
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_ACCESSORS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_INCLASS_NO_PURE_DECLS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_ACCESSORS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_INCLASS_NO_PURE_DECLS \
+>>>>>>> Stashed changes
 private: \
 	static void StaticRegisterNativesURoom(); \
 	friend struct Z_Construct_UClass_URoom_Statics; \
@@ -79,7 +99,11 @@ private: \
 public:
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_ENHANCED_CONSTRUCTORS \
+>>>>>>> Stashed changes
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API URoom(URoom&&); \
@@ -91,6 +115,7 @@ public: \
 	NO_API virtual ~URoom();
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_62_PROLOG
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
@@ -102,6 +127,19 @@ public: \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_ACCESSORS \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_INCLASS_NO_PURE_DECLS \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_62_PROLOG
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_SPARSE_DATA \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_ACCESSORS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h_65_ENHANCED_CONSTRUCTORS \
+>>>>>>> Stashed changes
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -109,7 +147,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PROCEDURALDUNGEON_API UClass* StaticClass<class URoom>();
 
 #undef CURRENT_FILE_ID
+<<<<<<< Updated upstream
 #define CURRENT_FILE_ID FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h
+=======
+#define CURRENT_FILE_ID FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_Room_h
+>>>>>>> Stashed changes
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

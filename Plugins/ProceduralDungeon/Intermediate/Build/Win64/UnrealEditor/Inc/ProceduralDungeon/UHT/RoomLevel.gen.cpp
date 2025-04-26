@@ -639,6 +639,7 @@ void FRoomLevelVisibilityEvent_DelegateWrapper(const FMulticastScriptDelegate& R
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ARoomLevel);
 	ARoomLevel::~ARoomLevel() {}
+<<<<<<< Updated upstream
 	struct Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomLevel_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
@@ -648,6 +649,17 @@ void FRoomLevelVisibilityEvent_DelegateWrapper(const FMulticastScriptDelegate& R
 	};
 	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomLevel_h_179806137(TEXT("/Script/ProceduralDungeon"),
 		Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomLevel_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomLevel_h_Statics::ClassInfo),
+=======
+	struct Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomLevel_h_Statics
+	{
+		static const FClassRegisterCompiledInInfo ClassInfo[];
+	};
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomLevel_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_ARoomLevel, ARoomLevel::StaticClass, TEXT("ARoomLevel"), &Z_Registration_Info_UClass_ARoomLevel, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARoomLevel), 626778998U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomLevel_h_179806137(TEXT("/Script/ProceduralDungeon"),
+		Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomLevel_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomLevel_h_Statics::ClassInfo),
+>>>>>>> Stashed changes
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

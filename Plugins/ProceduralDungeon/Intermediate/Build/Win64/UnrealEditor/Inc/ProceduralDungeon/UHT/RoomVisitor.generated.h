@@ -15,10 +15,17 @@ class ARoomLevel;
 #endif
 #define PROCEDURALDUNGEON_RoomVisitor_generated_h
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_SPARSE_DATA
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_RPC_WRAPPERS_NO_PURE_DECLS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_SPARSE_DATA
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_RPC_WRAPPERS_NO_PURE_DECLS \
+>>>>>>> Stashed changes
 	virtual void OnRoomExit_Implementation(ARoomLevel* RoomLevel) {}; \
 	virtual void OnRoomEnter_Implementation(ARoomLevel* RoomLevel) {}; \
  \
@@ -26,9 +33,15 @@ class ARoomLevel;
 	DECLARE_FUNCTION(execOnRoomEnter);
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_ACCESSORS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_CALLBACK_WRAPPERS
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_ACCESSORS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_CALLBACK_WRAPPERS
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_ENHANCED_CONSTRUCTORS \
+>>>>>>> Stashed changes
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	PROCEDURALDUNGEON_API URoomVisitor(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -42,7 +55,11 @@ public: \
 	PROCEDURALDUNGEON_API virtual ~URoomVisitor();
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_GENERATED_UINTERFACE_BODY() \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_GENERATED_UINTERFACE_BODY() \
+>>>>>>> Stashed changes
 private: \
 	static void StaticRegisterNativesURoomVisitor(); \
 	friend struct Z_Construct_UClass_URoomVisitor_Statics; \
@@ -51,15 +68,26 @@ public: \
 	DECLARE_SERIALIZER(URoomVisitor)
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_GENERATED_BODY \
 	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_GENERATED_UINTERFACE_BODY() \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_ENHANCED_CONSTRUCTORS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_GENERATED_BODY \
+	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_GENERATED_UINTERFACE_BODY() \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_ENHANCED_CONSTRUCTORS \
+>>>>>>> Stashed changes
 private: \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_INCLASS_IINTERFACE_NO_PURE_DECLS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_INCLASS_IINTERFACE_NO_PURE_DECLS \
+>>>>>>> Stashed changes
 protected: \
 	virtual ~IRoomVisitor() {} \
 public: \
@@ -70,6 +98,7 @@ public: \
 	virtual UObject* _getUObject() const { return nullptr; }
 
 
+<<<<<<< Updated upstream
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_34_PROLOG
 #define FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_43_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
@@ -81,6 +110,19 @@ public: \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_ACCESSORS \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_CALLBACK_WRAPPERS \
 	FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_INCLASS_IINTERFACE_NO_PURE_DECLS \
+=======
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_34_PROLOG
+#define FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_43_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_SPARSE_DATA \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_ACCESSORS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_CALLBACK_WRAPPERS \
+	FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h_37_INCLASS_IINTERFACE_NO_PURE_DECLS \
+>>>>>>> Stashed changes
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -88,7 +130,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PROCEDURALDUNGEON_API UClass* StaticClass<class URoomVisitor>();
 
 #undef CURRENT_FILE_ID
+<<<<<<< Updated upstream
 #define CURRENT_FILE_ID FID_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h
+=======
+#define CURRENT_FILE_ID FID_Unreal_cgt365_Plugins_ProceduralDungeon_Source_ProceduralDungeon_Public_RoomVisitor_h
+>>>>>>> Stashed changes
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
