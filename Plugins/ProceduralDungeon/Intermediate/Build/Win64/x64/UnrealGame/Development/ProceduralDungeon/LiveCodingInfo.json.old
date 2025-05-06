@@ -7,7 +7,6 @@
 			"DungeonBlueprintLibrary.gen.cpp.obj",
 			"DungeonGenerator.gen.cpp.obj",
 			"DungeonGraph.gen.cpp.obj",
-			"ElementSystem.gen.cpp.obj",
 			"ProceduralDungeon.init.gen.cpp.obj",
 			"ProceduralDungeonSettings.gen.cpp.obj"
 		],
@@ -28,7 +27,6 @@
 			"DungeonGenerator.cpp.obj",
 			"DungeonGraph.cpp.obj",
 			"DungeonOctree.cpp.obj",
-			"ElementSystem.cpp.obj",
 			"ProceduralDungeon.cpp.obj",
 			"ProceduralDungeonLog.cpp.obj",
 			"ProceduralDungeonSettings.cpp.obj",
